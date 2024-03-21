@@ -2,9 +2,8 @@ const express = require( 'express' );
 const pool = require( './src/database/pgConnection.js' );
 const dotenv = require('dotenv');
 const route = require('./src/route/route.js');
-const  monitorUsage  = require('./src/utils/monitor_cpu_usages.js');
 const { getUsers, getProcessInfo } = require('./src/model/queries.js');
-const addRows = require('./src/model/model.js');
+const {addRows, updateRows} = require('./src/model/model.js');
 
 dotenv.config();
 const app = express();
@@ -14,17 +13,11 @@ app.use('/',route);
 
 
 
-// setInterval(()=>{
-// monitorUsage().then(processInfo => {
-//     for (const proc of processInfo) {
-//         console.log("proc", proc);
-//     }
-//     // console.log("processInfo",processInfo);
-//   }).catch(error => {
-//     console.error('An error occurred while monitoring process usage:', error);
-//   });
+setInterval(async()=>{
+ updateRows();
+// console.log("updateRows");
 
-// },1000);
+},10000);
 
 addRows();
 // pool.query(getProcessInfo, ( err, res )=>{

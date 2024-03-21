@@ -13,7 +13,7 @@ async function getProcessInfo() {
 
 async function monitorUsage() {
         const processInfo = [];
-        const maxProcesses = 100;
+        const maxProcesses = 50;
         let count = 0;
 
         const processes = await getProcessInfo();
@@ -29,7 +29,7 @@ async function monitorUsage() {
               count++;
             }
           });
-          console.log("processInfo", processInfo)
+        //   console.log("processInfo", processInfo);
 
 return processInfo;
 
