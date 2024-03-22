@@ -13,11 +13,11 @@ app.use('/',route);
 
 
 
-setInterval(async()=>{
+// setInterval(async()=>{
  updateRows();
 // console.log("updateRows");
 
-},10000);
+// },10000);
 
 addRows();
 // pool.query(getProcessInfo, ( err, res )=>{
