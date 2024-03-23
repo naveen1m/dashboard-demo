@@ -20,9 +20,10 @@ const { insertRow, updateRow } = require('./queries.js');
 
 async function addRows() {
     const client = await pool.connect();
+    // console.log('client : ', client)
     const rowCountResult = await client.query('SELECT COUNT(*) FROM process_info');
     const rowCount = parseInt(rowCountResult.rows[0].count);
-    // console.log("rows count", rowCount);
+    console.log("rows count", rowCount);
     try {
         if (rowCount === 0) {
             monitorUsage().then(async processInfo => {
@@ -44,8 +45,7 @@ async function addRows() {
         }
     } catch (err) {
         console.log(err)
-    }
-    finally {
+    } finally {
         client.release();
     }
 }
