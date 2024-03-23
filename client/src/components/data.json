@@ -1,0 +1,370 @@
+[
+    {
+    "id": 151,
+    "pid": 290,
+    "name": "systemd-journald",
+    "cpu_usage": 0,
+    "mem_usage": 0.3,
+    "timestamp": "2024-03-21T06:52:44.061Z"
+    },
+    {
+    "id": 152,
+    "pid": 605,
+    "name": "NetworkManager",
+    "cpu_usage": 0.04,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:44.356Z"
+    },
+    {
+    "id": 153,
+    "pid": 633,
+    "name": "snapd",
+    "cpu_usage": 0.02,
+    "mem_usage": 0.3,
+    "timestamp": "2024-03-21T06:52:44.665Z"
+    },
+    {
+    "id": 154,
+    "pid": 1381,
+    "name": "pulseaudio",
+    "cpu_usage": 0.04,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:44.941Z"
+    },
+    {
+    "id": 155,
+    "pid": 1523,
+    "name": "gnome-session-binary",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:45.111Z"
+    },
+    {
+    "id": 156,
+    "pid": 1555,
+    "name": "gnome-shell",
+    "cpu_usage": 0.98,
+    "mem_usage": 1.3,
+    "timestamp": "2024-03-21T06:52:45.392Z"
+    },
+    {
+    "id": 157,
+    "pid": 1629,
+    "name": "evolution-source-registry",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:45.761Z"
+    },
+    {
+    "id": 158,
+    "pid": 1635,
+    "name": "goa-daemon",
+    "cpu_usage": 0,
+    "mem_usage": 0.4,
+    "timestamp": "2024-03-21T06:52:45.986Z"
+    },
+    {
+    "id": 159,
+    "pid": 1652,
+    "name": "evolution-calendar-factory",
+    "cpu_usage": 0,
+    "mem_usage": 0.2,
+    "timestamp": "2024-03-21T06:52:46.171Z"
+    },
+    {
+    "id": 160,
+    "pid": 1727,
+    "name": "gjs",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:46.446Z"
+    },
+    {
+    "id": 161,
+    "pid": 1752,
+    "name": "gsd-color",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:46.606Z"
+    },
+    {
+    "id": 162,
+    "pid": 1759,
+    "name": "gsd-keyboard",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:46.981Z"
+    },
+    {
+    "id": 163,
+    "pid": 1760,
+    "name": "gsd-media-keys",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:47.206Z"
+    },
+    {
+    "id": 164,
+    "pid": 1763,
+    "name": "gsd-power",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:47.402Z"
+    },
+    {
+    "id": 165,
+    "pid": 1796,
+    "name": "gsd-wacom",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:47.601Z"
+    },
+    {
+    "id": 166,
+    "pid": 1816,
+    "name": "evolution-alarm-notify",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:47.796Z"
+    },
+    {
+    "id": 167,
+    "pid": 1845,
+    "name": "ibus-extension-gtk3",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:48.006Z"
+    },
+    {
+    "id": 168,
+    "pid": 1897,
+    "name": "snap-store",
+    "cpu_usage": 0.4,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:48.217Z"
+    },
+    {
+    "id": 169,
+    "pid": 2028,
+    "name": "tracker-miner-fs-3",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:48.491Z"
+    },
+    {
+    "id": 170,
+    "pid": 2052,
+    "name": "xdg-desktop-portal-gnome",
+    "cpu_usage": 0.02,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:48.826Z"
+    },
+    {
+    "id": 171,
+    "pid": 2078,
+    "name": "gjs",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:49.022Z"
+    },
+    {
+    "id": 172,
+    "pid": 2107,
+    "name": "xdg-desktop-portal-gtk",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:49.236Z"
+    },
+    {
+    "id": 173,
+    "pid": 3275,
+    "name": "chrome",
+    "cpu_usage": 1.46,
+    "mem_usage": 4.6,
+    "timestamp": "2024-03-21T06:52:49.446Z"
+    },
+    {
+    "id": 174,
+    "pid": 3291,
+    "name": "chrome",
+    "cpu_usage": 0,
+    "mem_usage": 0.2,
+    "timestamp": "2024-03-21T06:52:49.642Z"
+    },
+    {
+    "id": 175,
+    "pid": 3292,
+    "name": "chrome",
+    "cpu_usage": 0,
+    "mem_usage": 0.3,
+    "timestamp": "2024-03-21T06:52:49.851Z"
+    },
+    {
+    "id": 176,
+    "pid": 3294,
+    "name": "chrome",
+    "cpu_usage": 0.5,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:50.069Z"
+    },
+    {
+    "id": 177,
+    "pid": 3305,
+    "name": "Xwayland",
+    "cpu_usage": 0.32,
+    "mem_usage": 0.5,
+    "timestamp": "2024-03-21T06:52:50.247Z"
+    },
+    {
+    "id": 178,
+    "pid": 3319,
+    "name": "gsd-xsettings",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:50.486Z"
+    },
+    {
+    "id": 179,
+    "pid": 3350,
+    "name": "ibus-x11",
+    "cpu_usage": 0,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:50.681Z"
+    },
+    {
+    "id": 180,
+    "pid": 3371,
+    "name": "chrome",
+    "cpu_usage": 1.05,
+    "mem_usage": 1.4,
+    "timestamp": "2024-03-21T06:52:50.882Z"
+    },
+    {
+    "id": 181,
+    "pid": 3373,
+    "name": "chrome",
+    "cpu_usage": 0.41,
+    "mem_usage": 1.1,
+    "timestamp": "2024-03-21T06:52:51.058Z"
+    },
+    {
+    "id": 182,
+    "pid": 3384,
+    "name": "chrome",
+    "cpu_usage": 0.01,
+    "mem_usage": 0.5,
+    "timestamp": "2024-03-21T06:52:51.276Z"
+    },
+    {
+    "id": 183,
+    "pid": 3532,
+    "name": "chrome",
+    "cpu_usage": 0.01,
+    "mem_usage": 1.2,
+    "timestamp": "2024-03-21T06:52:51.506Z"
+    },
+    {
+    "id": 184,
+    "pid": 3555,
+    "name": "chrome",
+    "cpu_usage": 0.05,
+    "mem_usage": 1.5,
+    "timestamp": "2024-03-21T06:52:51.706Z"
+    },
+    {
+    "id": 185,
+    "pid": 3564,
+    "name": "chrome",
+    "cpu_usage": 0,
+    "mem_usage": 1.1,
+    "timestamp": "2024-03-21T06:52:52.056Z"
+    },
+    {
+    "id": 186,
+    "pid": 3612,
+    "name": "chrome",
+    "cpu_usage": 0,
+    "mem_usage": 1.1,
+    "timestamp": "2024-03-21T06:52:52.216Z"
+    },
+    {
+    "id": 187,
+    "pid": 3651,
+    "name": "chrome",
+    "cpu_usage": 0.02,
+    "mem_usage": 1.6,
+    "timestamp": "2024-03-21T06:52:52.381Z"
+    },
+    {
+    "id": 188,
+    "pid": 3681,
+    "name": "chrome",
+    "cpu_usage": 0.14,
+    "mem_usage": 3.1,
+    "timestamp": "2024-03-21T06:52:52.546Z"
+    },
+    {
+    "id": 189,
+    "pid": 3714,
+    "name": "chrome",
+    "cpu_usage": 0.03,
+    "mem_usage": 3,
+    "timestamp": "2024-03-21T06:52:52.916Z"
+    },
+    {
+    "id": 190,
+    "pid": 3752,
+    "name": "chrome",
+    "cpu_usage": 0.02,
+    "mem_usage": 0.5,
+    "timestamp": "2024-03-21T06:52:53.121Z"
+    },
+    {
+    "id": 191,
+    "pid": 3793,
+    "name": "update-notifier",
+    "cpu_usage": 0.01,
+    "mem_usage": 0.1,
+    "timestamp": "2024-03-21T06:52:53.351Z"
+    },
+    {
+    "id": 192,
+    "pid": 4448,
+    "name": "chrome",
+    "cpu_usage": 2.92,
+    "mem_usage": 5,
+    "timestamp": "2024-03-21T06:52:53.536Z"
+    },
+    {
+    "id": 193,
+    "pid": 4571,
+    "name": "chrome",
+    "cpu_usage": 0.06,
+    "mem_usage": 1.2,
+    "timestamp": "2024-03-21T06:52:53.747Z"
+    },
+    {
+    "id": 194,
+    "pid": 4593,
+    "name": "chrome",
+    "cpu_usage": 0.1,
+    "mem_usage": 2.9,
+    "timestamp": "2024-03-21T06:52:53.951Z"
+    },
+    {
+    "id": 195,
+    "pid": 4603,
+    "name": "chrome",
+    "cpu_usage": 0,
+    "mem_usage": 1.1,
+    "timestamp": "2024-03-21T06:52:54.165Z"
+    },
+    {
+    "id": 196,
+    "pid": 4622,
+    "name": "chrome",
+    "cpu_usage": 0.13,
+    "mem_usage": 1.4,
+    "timestamp": "2024-03-21T06:52:54.361Z"
+    }
+    ]
